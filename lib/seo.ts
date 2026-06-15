@@ -13,7 +13,17 @@ export const baseMetadata: Metadata = {
   creator: siteConfig.author.name,
   publisher: siteConfig.author.name,
   applicationName: siteConfig.name,
-  category: "technology",
+  generator: siteConfig.generator,
+  referrer: siteConfig.referrer,
+  manifest: siteConfig.manifest,
+  category: siteConfig.category,
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    apple: "/apple-icon.png",
+  },
   robots: {
     index: true,
     follow: true,
@@ -35,11 +45,22 @@ export const baseMetadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} | ${siteConfig.title}`,
     description: siteConfig.shortDescription,
+    images: [
+      {
+        url: siteConfig.openGraphImage.url,
+        alt: siteConfig.openGraphImage.alt,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} | ${siteConfig.title}`,
     description: siteConfig.shortDescription,
+    creator: siteConfig.author.name,
+    images: {
+      url: siteConfig.twitterImage.url,
+      alt: siteConfig.twitterImage.alt,
+    },
   },
   other: {
     "apple-mobile-web-app-title": siteConfig.name,

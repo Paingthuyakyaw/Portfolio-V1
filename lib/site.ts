@@ -8,6 +8,8 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://paing-thura-kyaw.vercel.app",
   keywords: [
     "Paing Thura Kyaw",
+    "Paing Thura Kyaw Portfolio",
+    "Paing Thura Kyaw Developer",
     "Full Stack Developer",
     "React Developer",
     "Node.js Developer",
@@ -26,4 +28,16 @@ export const siteConfig = {
     role: "Full Stack Developer",
   },
   locale: "en_US",
+  generator: "Next.js",
+  referrer: "origin-when-cross-origin" as const,
+  manifest: "/manifest.json",
+  category: "technology",
+  openGraphImage: {
+    url: "/favicon.ico",
+    alt: "Paing Thura Kyaw",
+  },
+  twitterImage: {
+    url: "/favicon.ico",
+    alt: "Paing Thura Kyaw Portfolio",
+  },
 } as const;
