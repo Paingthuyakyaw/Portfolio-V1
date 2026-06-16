@@ -2,11 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavLayout from "@/layout/nav-layout";
-import {
-  baseMetadata,
-  getPersonJsonLd,
-  getWebSiteJsonLd,
-} from "@/lib/seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +13,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = baseMetadata;
+export const metadata: Metadata = {
+  title: "Paing Thura Kyaw | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in React, Node.js, and React Native.",
+};
 
 export default function RootLayout({
   children,
@@ -32,18 +31,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getPersonJsonLd()),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getWebSiteJsonLd()),
-          }}
-        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
