@@ -16,9 +16,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Paing Thura Kyaw",
-  other: {
-    "google-site-verification" : "5-ZNJvPNTAGXtlvN-egGJT8Z-_lJg0l62g5GCjFOMhc",
-  },
   // manifest: "/manifest.json",
   icons: {
     icon: [
