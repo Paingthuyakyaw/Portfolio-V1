@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   description:
-    "A passionate Frontend Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
+    "A passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
   generator: "Next.js",
   applicationName: "Portfolio",
   referrer: "origin-when-cross-origin",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Paing Thura Kyaw",
     description:
-      "A passionate Frontend Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
+      "A passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
     creator: "Paing Thura Kyaw",
     images: {
       url: "",
