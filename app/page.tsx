@@ -1,9 +1,9 @@
-import { Button } from "@heroui/react";
+import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <div>
-      <Button variant="primary">Click Me</Button>
-    </div>
+    <main>
+      <HeroSection />
+    </main>
   );
 }
