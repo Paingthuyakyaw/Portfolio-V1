@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   description:
-    "A passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
-  generator: "Next.js",
+    "Paing Thura Kyaw is a passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
+  generator: "Paing Thura Kyaw",
   applicationName: "Portfolio",
   referrer: "origin-when-cross-origin",
-  // metadataBase: new URL("https://www.rootstudio.asia"),
+  metadataBase: new URL("https://paing-thura-kyaw.vercel.app/"),
   keywords: [
     "Paing Thura Kyaw",
     "Paing Thura Kyaw FullStack Developer",
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Paing Thura Kyaw",
     description:
-      "A passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Frameworks. Explore my portfolio to see my latest work.",
+      "Paing Thura Kyaw is a passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Frameworks. Explore my portfolio to see my latest work.",
     // url: "https://www.rootstudio.asia",
     siteName: "Paing Thura Kyaw",
     images: [
       {
-        url: "",
+        url: "https://paing-thura-kyaw.vercel.app/favicon.ico",
         alt: "Paing Thura Kyaw",
       },
     ],
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Paing Thura Kyaw",
     description:
-      "A passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
+      "Paing Thura Kyaw is a passionate FullStack Developer specializing in modern web technologies like React, Next.js, Node.js and Related Framework. Explore my portfolio to see my latest work.",
     creator: "Paing Thura Kyaw",
     images: {
-      url: "",
+      url: "https://paing-thura-kyaw.vercel.app/favicon.ico",
       alt: "Paing Thura Kyaw",
     },
   },
