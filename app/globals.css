@@ -80,6 +80,12 @@
   /* HeroUI primary actions use --accent */
   --accent: var(--primary);
   --accent-foreground: var(--primary-foreground);
+
+  /* Brand accents from Personal Developer Portfolio */
+  --brand: #2563eb;
+  --brand-muted: #3b82f6;
+  --brand-soft: #eff6ff;
+  --section-muted: #f9fafb;
 }
 
 .dark,
@@ -125,6 +131,11 @@
   --accent-subtle-foreground: var(--accent-foreground);
   --accent: var(--primary);
   --accent-foreground: var(--primary-foreground);
+
+  --brand: #60a5fa;
+  --brand-muted: #3b82f6;
+  --brand-soft: rgb(23 37 84 / 0.3);
+  --section-muted: rgb(17 24 39 / 0.5);
 }
 
 @theme inline {
@@ -166,6 +177,10 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-brand: var(--brand);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-soft: var(--brand-soft);
+  --color-section-muted: var(--section-muted);
 }
 
 @layer base {
@@ -179,6 +194,8 @@
 
   html {
     font-size: var(--font-size);
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
   }
 
   h1 {
