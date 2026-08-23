@@ -18,7 +18,7 @@ export const socialLinks = [
   },
   {
     label: "Email",
-    href: "mailto:paingthurakyaw@example.com",
+    href: "mailto:paingthurakyaw2003@gmail.com",
     variant: "default" as const,
   },
 ] as const;
@@ -130,8 +130,8 @@ export const contactInfo = [
   {
     icon: "email" as const,
     label: "Email",
-    value: "paingthurakyaw@example.com",
-    href: "mailto:paingthurakyaw@example.com",
+    value: "paingthurakyaw2003@gmail.com",
+    href: "mailto:paingthurakyaw2003@gmail.com",
   },
   {
     icon: "linkedin" as const,
