@@ -13,7 +13,7 @@ export const socialLinks = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/paingthurakyaw",
+    href: "https://www.linkedin.com/in/paing-thura-kyaw-0584b6259/",
     variant: "linkedin" as const,
   },
   {
@@ -70,21 +70,32 @@ export const techLogos = [
 
 export const experience = [
   {
-    year: "2023 - Present",
-    title: "Senior Full-Stack Developer",
+    year: "2024 - Present",
+    title: "Frontend Team Lead",
+    company: "Grumman Holdings Company",
     description:
-      "Leading development of web and mobile applications using React ecosystem",
+      "Leading frontend development for enterprise currency-exchange platforms — React, Next.js, Electron desktop apps, and a React Native tablet app, with mentoring and code reviews.",
   },
   {
-    year: "2021 - 2023",
+    year: "2024 - 2026",
     title: "Full-Stack Developer",
+    company: "Root.Studio Myanmar",
     description:
-      "Built scalable applications with React, React Native, and Node.js",
+      "Building management systems and dashboards end-to-end with React, Next.js, Node.js, and Express — APIs, reusable UI, and cross-team delivery.",
   },
   {
-    year: "2019 - 2021",
+    year: "2022 - 2023",
     title: "Frontend Developer",
-    description: "Developed responsive web applications and mobile interfaces",
+    company: "Xsphere Company",
+    description:
+      "Developed React and Next.js apps and interactive dashboards with strong performance, SEO, and real-time features via WebSockets.",
+  },
+  {
+    year: "2021",
+    title: "Frontend Developer",
+    company: "MMS One IT Solution",
+    description:
+      "Started in real-world projects, building foundational frontend skills and collaborating with senior developers through the full development lifecycle.",
   },
 ];
 
@@ -125,8 +136,8 @@ export const contactInfo = [
   {
     icon: "linkedin" as const,
     label: "LinkedIn",
-    value: "linkedin.com/in/paingthurakyaw",
-    href: "https://linkedin.com/in/paingthurakyaw",
+    value: "linkedin.com/in/paing-thura-kyaw-0584b6259",
+    href: "https://www.linkedin.com/in/paing-thura-kyaw-0584b6259/",
   },
   {
     icon: "github" as const,
