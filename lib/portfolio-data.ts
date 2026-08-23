@@ -8,7 +8,7 @@ export const navItems = [
 export const socialLinks = [
   {
     label: "GitHub",
-    href: "https://github.com/paingthurakyaw",
+    href: "https://github.com/Paingthuyakyaw",
     variant: "default" as const,
   },
   {
@@ -44,56 +44,29 @@ export const expertise = [
   },
 ];
 
-export const techStack: Record<string, string[]> = {
-  "Frontend Development": [
-    "React.js",
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS",
-    "Redux",
-    "Context API",
-    "React Router",
-    "Next.js",
-    "Vite",
-    "Webpack",
-  ],
-  "Mobile Development": [
-    "React Native",
-    "Expo",
-    "iOS Development",
-    "Android Development",
-    "React Navigation",
-    "AsyncStorage",
-    "Push Notifications",
-    "Native Modules",
-  ],
-  "Backend Development": [
-    "Node.js",
-    "Express.js",
-    "RESTful APIs",
-    "GraphQL",
-    "JWT Authentication",
-    "MongoDB",
-    "PostgreSQL",
-    "MySQL",
-    "Mongoose",
-    "Prisma",
-  ],
-  "Tools & DevOps": [
-    "Git/GitHub",
-    "Docker",
-    "AWS",
-    "Vercel",
-    "Netlify",
-    "Postman",
-    "VS Code",
-    "npm/yarn",
-    "CI/CD",
-    "Agile/Scrum",
-  ],
-};
+/** Logos for the skills marquee (Simple Icons slugs → cdn.simpleicons.org) */
+export const techLogos = [
+  { name: "React", slug: "react" },
+  { name: "TypeScript", slug: "typescript" },
+  { name: "JavaScript", slug: "javascript" },
+  { name: "Next.js", slug: "nextdotjs" },
+  { name: "Tailwind CSS", slug: "tailwindcss" },
+  { name: "Redux", slug: "redux" },
+  { name: "Vite", slug: "vite" },
+  { name: "React Native", slug: "react" },
+  { name: "Expo", slug: "expo" },
+  { name: "Node.js", slug: "nodedotjs" },
+  { name: "Express", slug: "express" },
+  { name: "GraphQL", slug: "graphql" },
+  { name: "MongoDB", slug: "mongodb" },
+  { name: "PostgreSQL", slug: "postgresql" },
+  { name: "Prisma", slug: "prisma" },
+  { name: "Docker", slug: "docker" },
+  { name: "AWS", slug: "amazonaws" },
+  { name: "Vercel", slug: "vercel" },
+  { name: "Git", slug: "git" },
+  { name: "GitHub", slug: "github" },
+] as const;
 
 export const experience = [
   {
@@ -158,8 +131,8 @@ export const contactInfo = [
   {
     icon: "github" as const,
     label: "GitHub",
-    value: "github.com/paingthurakyaw",
-    href: "https://github.com/paingthurakyaw",
+    value: "github.com/Paingthuyakyaw",
+    href: "https://github.com/Paingthuyakyaw",
   },
   {
     icon: "location" as const,

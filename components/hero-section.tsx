@@ -36,8 +36,8 @@ function HeroAvatar() {
         </text>
       </svg>
 
-      <div className="absolute inset-5 rounded-full bg-linear-to-br from-blue-400 via-blue-500 to-blue-600 p-[3px] shadow-[0_0_32px_rgba(59,130,246,0.45)]">
-        <div className="flex size-full items-center justify-center overflow-hidden rounded-full bg-linear-to-br from-slate-700 to-slate-900 text-3xl font-bold text-white">
+      <div className="absolute inset-5 rounded-full bg-linear-to-br from-brand via-brand-muted to-brand/70 p-[2px] shadow-[0_0_40px_var(--glow)]">
+        <div className="bg-card text-foreground flex size-full items-center justify-center overflow-hidden rounded-full text-3xl font-bold">
           PTK
         </div>
       </div>
