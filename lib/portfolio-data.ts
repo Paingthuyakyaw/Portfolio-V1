@@ -124,6 +124,15 @@ export const projects: {
     tags: ["Next.js", "TypeScript", "EdTech", "SEO"],
     demo: "https://www.nexlynk.com/en",
   },
+  {
+    title: "GATE",
+    description:
+      "Event and attraction ticketing platform — browse shows, sports, and concerts, track remaining tickets, and get tickets with a modern dark UI.",
+    image: "/project/gate.jpg",
+    tags: ["Next.js", "TypeScript", "HeroUI", "Ticketing"],
+    github: "https://github.com/Paingthuyakyaw/GATE",
+    demo: "https://gate-seven-chi.vercel.app/",
+  },
 ];
 
 export const contactInfo = [
@@ -136,13 +145,13 @@ export const contactInfo = [
   {
     icon: "linkedin" as const,
     label: "LinkedIn",
-    value: "linkedin.com/in/paing-thura-kyaw-0584b6259",
+    value: "Paing Thura Kyaw",
     href: "https://www.linkedin.com/in/paing-thura-kyaw-0584b6259/",
   },
   {
     icon: "github" as const,
     label: "GitHub",
-    value: "github.com/Paingthuyakyaw",
+    value: "Paingthuyakyaw",
     href: "https://github.com/Paingthuyakyaw",
   },
   {
