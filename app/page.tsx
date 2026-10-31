@@ -11,7 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <SkillsSection />
-      <ProjectsSection />
+      <ProjectsSection limit={3} showMoreLink />
       <ContactSection />
       <Footer />
     </main>

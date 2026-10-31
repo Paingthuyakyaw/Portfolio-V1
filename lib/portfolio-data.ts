@@ -70,8 +70,8 @@ export const techLogos = [
 
 export const experience = [
   {
-    year: "2024 - Present",
-    title: "Frontend Team Lead",
+    year: "2024 - 2026",
+    title: "Senior Frontend Developer",
     company: "Grumman Holdings Company",
     description:
       "Leading frontend development for enterprise currency-exchange platforms — React, Next.js, Electron desktop apps, and a React Native tablet app, with mentoring and code reviews.",
@@ -132,6 +132,29 @@ export const projects: {
     tags: ["Next.js", "TypeScript", "HeroUI", "Ticketing"],
     github: "https://github.com/Paingthuyakyaw/GATE",
     demo: "https://gate-seven-chi.vercel.app/",
+  },
+  {
+    title: "Skyland Tourism",
+    description:
+      "Dubai DMC client project — desert safaris, city tours, and holiday packages with multi-language booking, currency support, and a premium travel experience.",
+    image: "/project/skyland.jpg",
+    tags: ["Next.js", "TypeScript", "Travel", "Client Work"],
+    demo: "https://www.skylandtourism.com/en",
+  },
+  {
+    title: "Skyland Tourism Console",
+    description:
+      "Internal admin dashboard for Skyland Tourism — manage tours, packages, bookings, customers, payments, and website content.",
+    image: "/project/skyland-console.jpg",
+    tags: ["Next.js", "TypeScript", "Admin Dashboard", "Client Work"],
+  },
+  {
+    title: "MM TruckPro",
+    description:
+      "React Native Android app for truck operations — activity tracking, history, and profiles. Published on Google Play.",
+    image: "/project/mm-truckpro.png",
+    tags: ["React Native", "Mobile", "Android"],
+    demo: "https://play.google.com/store/apps/details?id=com.paingthurakyaw.truckapp&hl=en",
   },
 ];
 

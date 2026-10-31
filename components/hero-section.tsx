@@ -10,41 +10,6 @@ const socialIcons = {
   Email: Mail,
 };
 
-function HeroAvatar() {
-  return (
-    <div className="relative mx-auto mb-10 size-44 sm:size-48">
-      <svg
-        className="absolute inset-0 size-full animate-[spin_24s_linear_infinite]"
-        viewBox="0 0 200 200"
-        aria-hidden="true"
-      >
-        <defs>
-          <path
-            id="hero-avatar-ring"
-            d="M 100, 100 m -82, 0 a 82,82 0 1,1 164,0 a 82,82 0 1,1 -164,0"
-            fill="none"
-          />
-        </defs>
-        <text
-          fill="currentColor"
-          className="fill-muted-foreground/80 text-[11px] tracking-[0.28em] uppercase"
-          fontSize="11"
-        >
-          <textPath href="#hero-avatar-ring" startOffset="0%">
-            Paing Thura Kyaw • Full Stack Developer •
-          </textPath>
-        </text>
-      </svg>
-
-      <div className="absolute inset-5 rounded-full bg-linear-to-br from-brand via-brand-muted to-brand/70 p-[2px] shadow-[0_0_40px_var(--glow)]">
-        <div className="bg-card text-foreground flex size-full items-center justify-center overflow-hidden rounded-full text-3xl font-bold">
-          PTK
-        </div>
-      </div>
-    </div>
-  );
-}
-
 const HeroSection = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -57,8 +22,6 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <HeroAvatar />
-
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-7xl">
           Paing Thura Kyaw
         </h1>
